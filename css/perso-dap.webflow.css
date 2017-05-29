@@ -1,0 +1,327 @@
+.header-container {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  padding: 50px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.line-1 {
+  position: absolute;
+  left: 50px;
+  top: 37%;
+  z-index: 10;
+  width: 85%;
+  height: 20px;
+  background-color: #54fad2;
+}
+
+.line-1.second {
+  top: 52%;
+  display: none;
+}
+
+.line-1.third {
+  top: 69%;
+  display: none;
+}
+
+.line-hori-1 {
+  position: absolute;
+  left: 70%;
+  top: 25%;
+  z-index: 9;
+  display: block;
+  width: 10px;
+  height: 400px;
+  background-color: #49fc41;
+}
+
+.div-block {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  z-index: 10;
+  display: block;
+  width: 50%;
+  height: 10px;
+  background-color: #f916e6;
+}
+
+.div-block-2 {
+  position: absolute;
+  left: 80%;
+  top: 17%;
+  z-index: 9;
+  display: block;
+  width: 20px;
+  height: 15%;
+  background-color: #f6ff1d;
+}
+
+.div-block-3 {
+  position: absolute;
+  left: 45%;
+  top: 67%;
+  z-index: 8;
+  display: block;
+  width: 40%;
+  height: 10px;
+  background-color: #f6ff1d;
+}
+
+.head-text {
+  position: static;
+  z-index: 100;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Geomanist, sans-serif;
+  color: #000;
+  font-size: 110px;
+  line-height: 130px;
+  font-weight: 800;
+}
+
+.projects-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bg-projects {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  background-color: #000;
+  opacity: 0;
+}
+
+.heading {
+  color: #fff;
+}
+
+.image {
+  position: relative;
+  z-index: 6;
+  display: none;
+}
+
+.div-block-4 {
+  position: absolute;
+  right: 150px;
+  width: 400px;
+  height: 600px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url('../images/profil_1.png');
+  background-position: 50% 50%;
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+
+.info-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 4px solid #000;
+  border-radius: 25px;
+}
+
+.info-container.white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.i-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.info-container-white {
+  display: none;
+  width: 50px;
+  height: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 4px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.info-block {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 20px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  color: #000;
+  text-decoration: none;
+}
+
+html.w-mod-js *[data-ix="line-blue"] {
+  -webkit-transform: translate(-110%, 0px);
+  -ms-transform: translate(-110%, 0px);
+  transform: translate(-110%, 0px);
+}
+
+html.w-mod-js *[data-ix="line-pink"] {
+  -webkit-transform: translate(120%, 0px);
+  -ms-transform: translate(120%, 0px);
+  transform: translate(120%, 0px);
+}
+
+html.w-mod-js *[data-ix="line-yellow-1"] {
+  -webkit-transform: translate(0px, -220%);
+  -ms-transform: translate(0px, -220%);
+  transform: translate(0px, -220%);
+}
+
+html.w-mod-js *[data-ix="line-yellow-2"] {
+  -webkit-transform: translate(140%, 0px);
+  -ms-transform: translate(140%, 0px);
+  transform: translate(140%, 0px);
+}
+
+html.w-mod-js *[data-ix="new-interaction"] {
+  -webkit-transform: translate(0px, -170%);
+  -ms-transform: translate(0px, -170%);
+  transform: translate(0px, -170%);
+}
+
+html.w-mod-js *[data-ix="info-btn-fade"] {
+  opacity: 0;
+}
+
+@media (max-width: 991px) {
+  .head-text {
+    position: relative;
+    top: 48px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .div-block-4 {
+    position: absolute;
+  }
+  .info-block {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-container {
+    padding: 20px;
+  }
+  .head-text {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 479px) {
+  .line-1 {
+    top: 40%;
+  }
+  .div-block {
+    top: 37%;
+  }
+  .head-text {
+    padding-left: 5px;
+    background-color: #fff;
+    color: #000;
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .div-block-4 {
+    right: 0px;
+  }
+}
+
+@font-face {
+  font-family: 'Geomanist';
+  src: url('../fonts/geomanist-thin-webfont.eot') format('embedded-opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('../fonts/geomanist-regular-webfont.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('../fonts/geomanist-black-webfont.eot') format('embedded-opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('../fonts/geomanist-bold-webfont.eot') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('../fonts/geomanist-ultra-webfont.eot') format('embedded-opentype');
+  font-weight: 800;
+  font-style: normal;
+}
